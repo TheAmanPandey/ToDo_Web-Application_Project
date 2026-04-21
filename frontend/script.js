@@ -9,7 +9,7 @@
 // // --------------------------------------------------------------------------
 
 // Utility to get API base URL (for deployment readiness)
-const API_BASE = window.location.origin;
+const API_BASE = "https://todo-web-application-project.onrender.com";
 
 // State
 let currentTodos = [];
