@@ -246,7 +246,7 @@ app.delete('/todos/:id', requireAuth, (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "index.html"));
+  res.send("Backend is running");
 });
 
 app.listen(PORT, () => {
